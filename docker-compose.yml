@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  flask-app:
+    build: .
+    ports:
+      - "5031:5031"
+    volumes:
+      - .:/facial-server
+      - /home/admin/storage:/home/admin/storage  
+      - /home/admin/config:/home/admin/config  
+    restart: always

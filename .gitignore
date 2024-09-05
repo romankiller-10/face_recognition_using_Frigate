@@ -1,0 +1,14 @@
+venv
+__pycache__
+*.h5
+*.pkl
+test.py
+test1.py
+test_coral.py
+req.txt
+test
+image_pre_procee.py
+.venv
+.idea
+__pycache__
+.idea
